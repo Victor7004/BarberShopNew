@@ -2,12 +2,6 @@
 require 'rubygems'
 require 'sinatra'
 require 'sinatra/reloader'
-require "dbi"
-
-set :bind, '192.168.200.185'
-get '/' do
-    'hello word'
-end 
 
 get '/' do
 	erb "Hello! <a href=\"https://github.com/bootstrap-ruby/sinatra-bootstrap\">Original</a> pattern has been modified for <a href=\"http://rubyschool.us/\">Ruby School</a>"			
